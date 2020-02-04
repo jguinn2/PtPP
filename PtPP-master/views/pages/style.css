@@ -1,0 +1,30 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 22px 18px;
+    background-color: #ff56a5;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(255, 168, 209);
+}
+h3{
+    line-height: 60px;
+}
+div{
+    line-height: 32px;
+}

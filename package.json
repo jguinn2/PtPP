@@ -1,0 +1,16 @@
+{
+  "name": "ptpp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "PtPP-master/index.js",
+  "scripts": {
+    "start": "node PtPP-master/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}

@@ -1,30 +1,73 @@
-
-ul {
+.menu ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+   
+    height: 65px;
+    background-color: #ff56a5;
+  
+ 
+ 
+  overflow: hidden;
+  position: sticky;
+  top: 0;
 }
 
-li {
-    display: inline;
-    float: left;
+.menu li {
+    display: inline-block;
+    float: right;
 }
 
-li a {
+.menu li a {
     color: white;
     text-align: center;
     display: block;
-    padding: 22px 18px;
-    background-color: #ff56a5;
+    padding: 20px;
+ 
+    font-weight: bold;
     text-decoration: none;
+    font-size:1.3vw;
 }
 
-li a:hover {
+.menu li a:hover {
     background-color: rgb(255, 168, 209);
+  
 }
-h3{
+
+.menu h3 {
     line-height: 60px;
 }
-div{
+
+.menu div {
     line-height: 32px;
+}
+
+.menu img {
+    display: inline-block;
+    float: left;
+    padding-bottom: 10px;
+}
+
+.carousel {
+    margin-top: 20px;
+}
+
+.carousel img {
+    max-height: 550px;
+}
+
+.banner {
+    width: 100%;
+    /* height: auto; */
+}
+
+.title {
+    color: white;
+    position: absolute;
+}
+
+.profile{
+    display: inline-block;
+}
+
+.footer{
+    display: inline-block;
 }
